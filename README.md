@@ -1,3 +1,5 @@
+Utilização do basico de POO para criar um codigo que representa um Iphone com as utilidades principais de Reprodutor de musicas, Aparelho telefonico e Navegador de Internet.
+
 ```mermaid
 classDiagram
     class ReprodutorMusical {
@@ -21,7 +23,7 @@ classDiagram
     class iPhone {
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    ReprodutorMusical --> iPhone
+    AparelhoTelefonico --> iPhone
+    NavegadorInternet --> iPhone
 ```
